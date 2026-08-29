@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+
+.idea/
+
+build/
+dist/
+
+# Собирается из model.VERSION при каждой сборке
+version_info.txt
+
+# Логи сценариев ложатся рядом с .asic
+*.log
+
+# Свалка для файлов, которые пора удалить руками
+_to_delete/
+
+# Мусор проводника Windows
+Thumbs.db
+desktop.ini
+
+# Листы значков, которые печатает icon_sheet.py — их смотрят и удаляют
+shell32_*.png

@@ -1,0 +1,16 @@
+[project]
+name = "automaticsic"
+version = "1.0.0"
+description = "Сценарии из шагов для Windows: запуск программ, окна, горячие клавиши"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "psutil>=7.2.2",
+    "pyside6>=6.11.2",
+    "pywin32>=312",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.22.2",
+]

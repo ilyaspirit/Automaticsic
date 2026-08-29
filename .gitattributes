@@ -1,0 +1,16 @@
+# В репозитории строки хранятся с LF, в рабочей копии на Windows
+# разворачиваются в CRLF. Без этого правки концов строк попадают в дифф
+# и файл выглядит переписанным целиком.
+* text=auto
+
+*.py    text
+*.md    text
+*.toml  text
+*.spec  text
+*.lock  text
+*.asic  text
+.gitignore text
+.python-version text
+
+*.png binary
+*.ico binary

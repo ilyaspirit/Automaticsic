@@ -1,0 +1,157 @@
+{
+  "name": "Полный прогон",
+  "autopause_ms": 200,
+  "steps": [
+    {
+      "id": "33f0a43d",
+      "type": "launch",
+      "enabled": true,
+      "ignore_error": true,
+      "comment": "",
+      "params": {
+        "path": "C:\\Windows\\notepad.exe",
+        "args": "",
+        "as_admin": false,
+        "show": "normal",
+        "if_running": "launch",
+        "wait_window": true,
+        "wait_timeout_ms": 10000,
+        "alias": "np"
+      }
+    },
+    {
+      "id": "s2",
+      "type": "hotkey",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "ctrl": false,
+        "alt": false,
+        "shift": false,
+        "win": false,
+        "key": "H"
+      }
+    },
+    {
+      "id": "0fc34f5c",
+      "type": "hotkey",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "ctrl": false,
+        "alt": false,
+        "shift": false,
+        "win": false,
+        "key": "E"
+      }
+    },
+    {
+      "id": "3465d9bd",
+      "type": "hotkey",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "ctrl": false,
+        "alt": false,
+        "shift": false,
+        "win": false,
+        "key": "L"
+      }
+    },
+    {
+      "id": "b1ca713f",
+      "type": "hotkey",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "ctrl": false,
+        "alt": false,
+        "shift": false,
+        "win": false,
+        "key": "L"
+      }
+    },
+    {
+      "id": "d082de24",
+      "type": "hotkey",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "ctrl": false,
+        "alt": false,
+        "shift": false,
+        "win": false,
+        "key": "O"
+      }
+    },
+    {
+      "id": "s4",
+      "type": "pause",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "id": "s3",
+      "type": "window",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "action": "minimize"
+      }
+    },
+    {
+      "id": "f2a49413",
+      "type": "pause",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "ms": 1000
+      }
+    },
+    {
+      "id": "s5",
+      "type": "window",
+      "enabled": true,
+      "ignore_error": false,
+      "comment": "",
+      "params": {
+        "target_kind": "alias",
+        "target": "np",
+        "title_contains": "",
+        "action": "maximize"
+      }
+    }
+  ],
+  "alias_exe": {
+    "np": "C:\\Windows\\notepad.exe"
+  }
+}
